@@ -26,7 +26,7 @@
         isLogin: false
       }
     },
-     beforeRouteEnter (to,from,next) {
+    beforeRouteEnter (to,from,next) {
       console.log('组件内的钩子：beforeRouteEnter')
       console.log(this)
       /* 
